@@ -6,12 +6,11 @@ body {
   }
 
  .image {
-  background-image: url('http://freestock.ca/jamaica_grunge_flag_sjpg1136.jpg');
+  background: url('http://freestock.ca/jamaica_grunge_flag_sjpg1136.jpg') no-repeat center 0;
   opacity: 0.6;
   margin-top: 140px;
   height: 100%;
-  background-repeat: no-repeat;
-  background-position: center 0;
+  background-size: 100%;
  }
  /*have 3 empty paragraphs with the below classes* inside a div*/
  .color {
@@ -23,52 +22,22 @@ body {
 
  .b {
    width: 33.33%;
-   border-top: 10px solid black;
+   border-top: 5px solid black;
    padding: 0;
    float: left;
    margin: 0;
  }
  .g {
    width: 33.33%;
-   border-top: 10px solid green;
+   border-top: 5px solid green;
    padding: 0;
    float: right;
    margin: 0;
  }
  .y {
    width: 33.34%;
-   border-top: 10px solid #FBBD01;
+   border-top: 5px solid #FBBD01;
    padding: 0;
    float: right;
    margin: 0;
  }
-
-.dtborder {
-   position:relative;
-   border-top:5px solid black;
-   /* height:210px; */
-   width:100%; 
-   /* background: #f8f8f8; */
-   padding:30px;
-   
-}
-.dtborder:before {
-  content:"";
-  position: absolute;
-  top:0px;
-  bottom:5px;
-  left:0px;
-  right:0px;
-  border-top:5px solid yellow;  
-}
-
-.dtborder:after {
-  content:"";
-  position: absolute;
-  top:5px;
-  bottom:15px;
-  left:0px;
-  right:0px;
-  border-top:5px solid green; 
-}
-  
