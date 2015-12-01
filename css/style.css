@@ -1,6 +1,5 @@
 body {
   width: 100%;
-  /*width: 1600px;*/
   height: 1028px;
   background-color: white;
   }
@@ -36,7 +35,8 @@ body {
  }
  .y {
    width: 33.34%;
-   border-top: 5px solid #FBBD01;
+   /*border-top: 5px solid #FBBD01;*/
+   border-top: 5px solid #F9DA00;
    padding: 0;
    float: right;
    margin: 0;
