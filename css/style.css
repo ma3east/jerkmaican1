@@ -1,0 +1,74 @@
+body {
+  width: 100%;
+  /*width: 1600px;*/
+  height: 1028px;
+  background-color: white;
+  }
+
+ .image {
+  background-image: url('http://freestock.ca/jamaica_grunge_flag_sjpg1136.jpg');
+  opacity: 0.6;
+  margin-top: 140px;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center 0;
+ }
+ /*have 3 empty paragraphs with the below classes* inside a div*/
+ .color {
+   width: 100%;
+   margin: 0;
+   padding-bottom: 10px;
+   opacity: 0.8;
+ }
+
+ .b {
+   width: 33.33%;
+   border-top: 10px solid black;
+   padding: 0;
+   float: left;
+   margin: 0;
+ }
+ .g {
+   width: 33.33%;
+   border-top: 10px solid green;
+   padding: 0;
+   float: right;
+   margin: 0;
+ }
+ .y {
+   width: 33.34%;
+   border-top: 10px solid #FBBD01;
+   padding: 0;
+   float: right;
+   margin: 0;
+ }
+
+.dtborder {
+   position:relative;
+   border-top:5px solid black;
+   /* height:210px; */
+   width:100%; 
+   /* background: #f8f8f8; */
+   padding:30px;
+   
+}
+.dtborder:before {
+  content:"";
+  position: absolute;
+  top:0px;
+  bottom:5px;
+  left:0px;
+  right:0px;
+  border-top:5px solid yellow;  
+}
+
+.dtborder:after {
+  content:"";
+  position: absolute;
+  top:5px;
+  bottom:15px;
+  left:0px;
+  right:0px;
+  border-top:5px solid green; 
+}
+  
