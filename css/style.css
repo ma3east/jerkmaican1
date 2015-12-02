@@ -18,25 +18,23 @@ body {
    padding-bottom: 10px;
    opacity: 0.8;
  }
-
- .b {
-   width: 33.33%;
-   border-top: 5px solid black;
+ .g {
+   width: 34%;
+   border-top: 5px solid green;
    padding: 0;
    float: left;
    margin: 0;
  }
- .g {
-   width: 33.33%;
-   border-top: 5px solid green;
+ .y {
+   width: 32%;
+   border-top: 5px solid #F9DA00;
    padding: 0;
-   float: right;
+   float: left;
    margin: 0;
  }
- .y {
-   width: 33.34%;
-   /*border-top: 5px solid #FBBD01;*/
-   border-top: 5px solid #F9DA00;
+ .b {
+   width: 34%;
+   border-top: 5px solid black;
    padding: 0;
    float: right;
    margin: 0;
